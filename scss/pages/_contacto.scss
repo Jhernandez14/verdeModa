@@ -1,3 +1,4 @@
+@use '../abstracts/variables' as vars;
 .contacto {
   max-width: 600px;
   margin: 3rem auto;
@@ -12,8 +13,8 @@
   input,
   textarea {
     padding: 0.5rem;
-    border: 1px solid $color-border;
-    border-radius: $radius;
+    border: 1px solid vars.$color-border;
+    border-radius: vars.$radius;
     font-family: inherit;
     font-size: 1rem;
   }

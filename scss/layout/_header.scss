@@ -1,6 +1,8 @@
+@use '../abstracts/variables' as vars;
+
 header {
-  background-color: $color-primary;
-  color: $color-white;
+  background-color: vars.$color-primary;
+  color: vars.$color-white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +21,7 @@ nav ul {
 }
 
 nav a {
-  color: $color-white;
+  color: vars.$color-white;
   text-decoration: none;
   font-weight: bold;
 }

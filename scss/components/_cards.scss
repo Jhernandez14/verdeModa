@@ -1,3 +1,4 @@
+@use '../abstracts/variables' as vars;
 .galeria {
   display: flex;
   gap: 1rem;
@@ -6,7 +7,7 @@
 }
 
 .producto {
-  background: $color-white;
+  background: vars.$color-white;
   padding: 1rem;
   border-radius: 8px;
   width: 200px;

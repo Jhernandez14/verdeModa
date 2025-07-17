@@ -1,10 +1,11 @@
+@use '../abstracts/variables' as vars;
 .filtros button,
 .btn-comprar {
   padding: 0.5rem 1rem;
   border: none;
-  background-color: $color-primary;
-  color: $color-white;
-  border-radius: $radius;
+  background-color: vars.$color-primary;
+  color: vars.$color-white;
+  border-radius: vars.$radius;
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
@@ -13,5 +14,5 @@
 
 .filtros button:hover,
 .btn-comprar:hover {
-  background-color: $color-hover;
+  background-color: vars.$color-hover;
 }

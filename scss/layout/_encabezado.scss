@@ -1,6 +1,7 @@
+@use '../abstracts/variables' as vars;
 .encabezado {
-  background-color: $color-primary;
-  color: $color-white;
+  background-color: vars.$color-primary;
+  color: vars.$color-white;
 }
 
 .contenedor-header {
@@ -18,7 +19,7 @@
   gap: 1.5rem;
 
   a {
-    color: $color-white;
+    color: vars.$color-white;
     text-decoration: none;
     font-weight: bold;
   }
