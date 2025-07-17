@@ -1,0 +1,17 @@
+.filtros button,
+.btn-comprar {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: $color-primary;
+  color: $color-white;
+  border-radius: $radius;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.filtros button:hover,
+.btn-comprar:hover {
+  background-color: $color-hover;
+}

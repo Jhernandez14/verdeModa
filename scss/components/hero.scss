@@ -1,0 +1,12 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('../assets/img/hero.jpg') no-repeat center/cover;
+  color: $color-white;
+  text-align: center;
+  padding: 4rem 2rem;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+}

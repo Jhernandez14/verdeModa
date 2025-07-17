@@ -1,0 +1,20 @@
+@include responsive(tablet) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ficha-producto {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-producto {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | VerdeModa</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+<header class="encabezado">
+  <div class="contenedor-header">
+    <img src="../assets/img/logo.jpg" alt="Logo VerdeModa" class="logo">
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="producto.html">Productos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="contenido">
+    <section class="contacto">
+      <h1>Contáctanos</h1>
+      <p>¿Tienes dudas o quieres hacer un pedido? Escríbenos directamente por WhatsApp.</p>
+
+      <form class="formulario-contacto" onsubmit="return false;">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button onclick="enviarWhatsApp()" class="btn-comprar">Enviar por WhatsApp</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 VerdeModa - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
